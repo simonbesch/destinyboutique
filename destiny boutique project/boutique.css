@@ -1,0 +1,261 @@
+*{
+  font-family: 'Oswald', sans-serif;
+}
+.minijeux{
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-around;
+  background: url(https://i.ytimg.com/vi/LK-n-ddoczc/maxresdefault.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 25px;
+  margin-bottom: 100px;
+  margin: 100px 100px;
+}
+.flip-container {
+}
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+}
+.flip-container, .front, .back {
+	width: 100%;
+	height: 500px;
+}
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+.front, .back {
+	backface-visibility: hidden;
+	position: absolute;
+}
+.front {
+  z-index: 2;
+	transform: rotateY(0deg);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: black;
+  font-size: 20px;
+
+}
+.back {
+	transform: rotateY(180deg);
+  background: linear-gradient(-40deg,#5f27cd,#ff9ff3);
+  border: 7px solid black;
+  border-radius: 25px;
+}
+
+.boosts{
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-around;
+  background: url(https://i.ytimg.com/vi/LK-n-ddoczc/maxresdefault.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 25px;
+  margin-bottom: 100px;
+  margin: 100px 100px;
+}
+.flip-container1 {
+}
+.flip-container1:hover .flipper1, .flip-container1.hover1 .flipper1 {
+		transform: rotateY(180deg);
+}
+.flip-container1, .front1, .back1 {
+	width: 100%;
+	height: 500px;
+}
+.flipper1 {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+.front1, .back1 {
+	backface-visibility: hidden;
+	position: absolute;
+}
+.front1 {
+  z-index: 2;
+	transform: rotateY(0deg);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: black;
+  font-size: 20px;
+
+}
+.back1 {
+	transform: rotateY(180deg);
+  background: linear-gradient(-40deg,#f368e0,#5f27cd);
+  border-radius: 25px;
+}
+.guerrier{
+  background: linear-gradient(-40deg,#2e86de,#341f97);
+  border-radius: 25px;
+  width: 400px;
+  height: 400px;
+}
+.duc{
+  background: linear-gradient(-40deg,#2e86de,#341f97);
+  border-radius: 25px;
+  width: 400px;
+  height: 400px;
+}
+.seigneur{
+  background: linear-gradient(-40deg,#2e86de,#341f97);
+  border-radius: 25px;
+  width: 400px;
+  height: 400px;
+}
+.empereur{
+  background: linear-gradient(-40deg,#2e86de,#341f97);
+  border-radius: 25px;
+  width: 400px;
+  height: 400px;
+}
+.grade{
+  padding-left: 10px;
+}
+
+
+
+
+
+.vip{
+  background: linear-gradient(-40deg,#2e86de,#341f97);
+  border-radius: 25px;
+  width: 400px;
+  height: 400px;
+}
+.vipplus{
+  background: linear-gradient(-40deg,#2e86de,#341f97);
+  border-radius: 25px;
+  width: 400px;
+  height: 400px;
+}
+.divi{
+  background: linear-gradient(-40deg,#2e86de,#341f97);
+  border-radius: 25px;
+  width: 400px;
+  height: 400px;
+}
+.grades{
+  display: flex;
+  justify-content: space-around;
+}
+.boosts{
+
+}
+.faction{
+
+}
+
+
+.contenaire{
+  display: flex;
+  justify-content: space-around;
+}
+.pvp_faction{
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-around;
+  background: url(https://i.ytimg.com/vi/slNrnKOgTMo/maxresdefault.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 100px 100px;
+  border-radius: 25px;
+}
+
+.flip-container4 {
+}
+	.flip-container4:hover .flipper4, .flip-container3.hover4 .flipper4 {
+		transform: rotateY(180deg);
+	}
+.flip-container4, .front4, .back4 {
+	width: 100%;
+  height: 500px;
+}
+.flipper4 {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+.front4, .back4 {
+	backface-visibility: hidden;
+	position: absolute;
+}
+.front4 {
+	z-index: 2;
+	transform: rotateY(0deg);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: black;
+  font-size: 20px;
+}
+.back4 {
+	transform: rotateY(180deg);
+  background: linear-gradient(-40deg,#f368e0,#5f27cd);
+  border: 7px solid black;
+  border-radius: 25px;
+}
+
+#logo2{
+    background-image: url('logo.png');
+    background-repeat: no-repeat;
+    background-size: 300px;
+    width: 300px;
+    height: 300px;
+    z-index: 10;
+    animation: OK2 3s infinite;
+    display: flex;
+    transition: 2s;
+    overflow: visible;
+    justify-content: center;
+    padding-bottom: 570px;
+    margin-left: -85px;
+}
+@keyframes OK2{
+    0%{
+        transform: rotate(0deg);
+        }
+    50%{
+        transform: rotate(-10deg);
+        }
+    100%{
+        transform: rotate(0deg);
+        }
+}
+#logo3{
+    background-image: url('logo.png');
+    background-repeat: no-repeat;
+    background-size: 300px;
+    width: 300px;
+    height: 300px;
+    z-index: 10;
+    animation: OK 3s infinite;
+    display: flex;
+    transition: 2s;
+    overflow: visible;
+    justify-content: center;
+    padding-bottom: 570px;
+    margin-left: -85px;
+}
+@keyframes OK{
+    0%{
+        transform: rotate(-10deg);
+        }
+    50%{
+        transform: rotate(0deg);
+        }
+    100%{
+        transform: rotate(-10deg);
+        }
+}
