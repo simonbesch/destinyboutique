@@ -23,6 +23,10 @@ body{
 .headersecondaire li{
   padding-right: 25px;
 }
+.enjeu{
+  font-size: 18px;
+  color: White;
+}
 .boutique{
   font-size: 25px;
 }
@@ -158,6 +162,74 @@ body{
 .gradebooster{
   text-decoration: #222f3e underline;
 }
+.rubriquecrédit{
+  background-color: gray;
+  border-radius: 5px;
+  margin-top: 75px;
+  padding-left: 10px;
+  font-size: 25px;
+}
+.rubriquecrédit p{
+  margin-bottom: 0px;
+}
+.creditation{
+  margin-top: 50px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+}
+.credit h1{
+  display: flex;
+  justify-content: center;
+}
+.credit h2{
+  display: flex;
+  justify-content: center;
+}
+.credit p{
+  display: flex;
+  justify-content: center;
+}
+.credit a{
+  text-decoration: none;
+}
+
+.buttoncredit{
+  background-color: #ffbe76;
+  color: White;
+  font-size: 15px;
+  margin-left: 20px;
+  padding: 5px 5px;
+  border-radius: 5px;
+  border-color: #ff6348;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.buttoncredit:hover{
+  background-color: #7ed6df;
+  color: White;
+  font-size: 15px;
+  margin-left: 20px;
+  padding: 5px 5px;
+  border-radius: 5px;
+  border-color: #be2edd;
+}
+.condition{
+  padding: 10px 10px;
+  padding-bottom: 10px;
+  border: 2px solid red;
+  border-radius: 5px;
+}
+.condition h3{
+  display: flex;
+  justify-content: center;
+}
+.namename{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
 
 .vip{
   border-radius: 25px;
@@ -269,8 +341,34 @@ span{
   border-radius: 25px;
   border-color: #be2edd;
 }
-
-
+#logo3{
+    background-image: url('logo.png');
+    background-repeat: no-repeat;
+    background-size: 200px;
+    width: 200px;
+    height: 200px;
+    z-index: 10;
+    animation: OK 3s infinite;
+    display: flex;
+    transition: 2s;
+    overflow: visible;
+    justify-content: center;
+    padding-bottom: 0px;
+    margin-left: 0px;
+    margin-bottom: -140px;
+    margin-top: -25px;
+}
+@keyframes OK{
+    0%{
+        transform: rotate(0deg);
+        }
+    50%{
+        transform: rotate(10deg);
+        }
+    100%{
+        transform: rotate(0deg);
+        }
+}
 #logo2{
     background-image: url('logo.png');
     background-repeat: no-repeat;
