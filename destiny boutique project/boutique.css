@@ -8,14 +8,12 @@ body{
   background-color: #686de0;
   display: flex;
   justify-content: flex-end;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 .headersecondaire a{
   text-decoration: none;
   color: black;
-  border: 2px solid #f6e58d;
   padding: 5px 5px;
-  border-radius: 25px;
 }
 .headersecondaire ul{
   list-style-type: none;
@@ -38,7 +36,7 @@ body{
   background: url(https://i.ytimg.com/vi/LK-n-ddoczc/maxresdefault.jpg);
   background-size: cover;
   background-position: center;
-  border-radius: 25px;
+  border-radius: 5px;
   margin-bottom: 100px;
   margin: 100px 100px;
 }
@@ -73,8 +71,8 @@ body{
 }
 .back {
 	transform: rotateY(180deg);
-  background: linear-gradient(-80deg,#7ed6df,#22a6b3);
-  border-radius: 25px;
+  background: linear-gradient(180deg,#95afc0,#535c68);
+  border-radius: 5px;
 }
 
 .boosts{
@@ -84,7 +82,7 @@ body{
   background: url(https://i.ytimg.com/vi/LK-n-ddoczc/maxresdefault.jpg);
   background-size: cover;
   background-position: center;
-  border-radius: 25px;
+  border-radius: 5px;
   margin-bottom: 100px;
   margin: 100px 100px;
 }
@@ -119,8 +117,8 @@ body{
 }
 .back1 {
 	transform: rotateY(180deg);
-  background: linear-gradient(-80deg,#7ed6df,#22a6b3);
-  border-radius: 25px;
+  background: linear-gradient(180deg,#95afc0,#535c68);
+  border-radius: 5px;
 }
 .guerrier{
   border-radius: 25px;
@@ -209,7 +207,7 @@ body{
   background-size: cover;
   background-position: center;
   margin: 100px 100px;
-  border-radius: 25px;
+  border-radius: 5px;
 }
 
 .flip-container4 {
@@ -244,8 +242,8 @@ body{
 }
 .back4 {
 	transform: rotateY(180deg);
-  background: linear-gradient(-80deg,#7ed6df,#22a6b3);
-  border-radius: 25px;
+  background: linear-gradient(180deg,#95afc0,#535c68);
+  border-radius: 5px;
 }
 span{
   color: #ff4757;
