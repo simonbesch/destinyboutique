@@ -1,6 +1,36 @@
 *{
   font-family: 'Oswald', sans-serif;
 }
+body{
+  background-color: #f1f2f6;
+}
+.headersecondaire{
+  background-color: #686de0;
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 15px;
+}
+.headersecondaire a{
+  text-decoration: none;
+  color: black;
+  border: 2px solid #f6e58d;
+  padding: 5px 5px;
+  border-radius: 25px;
+}
+.headersecondaire ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+.headersecondaire li{
+  padding-right: 25px;
+}
+.boutique{
+  font-size: 25px;
+}
+.boutiquespan{
+  color : #f0932b;
+}
 .minijeux{
   margin-top: 0px;
   display: flex;
@@ -43,8 +73,7 @@
 }
 .back {
 	transform: rotateY(180deg);
-  background: linear-gradient(-40deg,#5f27cd,#ff9ff3);
-  border: 7px solid black;
+  background: linear-gradient(-80deg,#7ed6df,#22a6b3);
   border-radius: 25px;
 }
 
@@ -90,29 +119,25 @@
 }
 .back1 {
 	transform: rotateY(180deg);
-  background: linear-gradient(-40deg,#f368e0,#5f27cd);
+  background: linear-gradient(-80deg,#7ed6df,#22a6b3);
   border-radius: 25px;
 }
 .guerrier{
-  background: linear-gradient(-40deg,#2e86de,#341f97);
   border-radius: 25px;
   width: 400px;
   height: 400px;
 }
 .duc{
-  background: linear-gradient(-40deg,#2e86de,#341f97);
   border-radius: 25px;
   width: 400px;
   height: 400px;
 }
 .seigneur{
-  background: linear-gradient(-40deg,#2e86de,#341f97);
   border-radius: 25px;
   width: 400px;
   height: 400px;
 }
 .empereur{
-  background: linear-gradient(-40deg,#2e86de,#341f97);
   border-radius: 25px;
   width: 400px;
   height: 400px;
@@ -121,24 +146,32 @@
   padding-left: 10px;
 }
 
+.grade h1{
+  color: #5f27cd;
+}
+.grade i{
+  color: #2e86de;
+}
 
+.border{
+  border: 1px solid White;
+}
 
-
+.gradebooster{
+  text-decoration: #222f3e underline;
+}
 
 .vip{
-  background: linear-gradient(-40deg,#2e86de,#341f97);
   border-radius: 25px;
   width: 400px;
   height: 400px;
 }
 .vipplus{
-  background: linear-gradient(-40deg,#2e86de,#341f97);
   border-radius: 25px;
   width: 400px;
   height: 400px;
 }
 .divi{
-  background: linear-gradient(-40deg,#2e86de,#341f97);
   border-radius: 25px;
   width: 400px;
   height: 400px;
@@ -147,13 +180,22 @@
   display: flex;
   justify-content: space-around;
 }
-.boosts{
-
+.boostt h2{
+  color: #4834d4;
 }
-.faction{
-
+.faction h2{
+  color: #4834d4;
 }
-
+.imagegrade{
+  width: 110px;
+  height: 110px;
+  border-radius: 100px;
+}
+.imageplace{
+  display: flex;
+  justify-content: center;
+  padding-right: 50px;
+}
 
 .contenaire{
   display: flex;
@@ -202,25 +244,51 @@
 }
 .back4 {
 	transform: rotateY(180deg);
-  background: linear-gradient(-40deg,#f368e0,#5f27cd);
-  border: 7px solid black;
+  background: linear-gradient(-80deg,#7ed6df,#22a6b3);
   border-radius: 25px;
 }
+span{
+  color: #ff4757;
+}
+.span{
+  color:#ffbe76;
+}
+.button{
+  background-color: #ff7f50;
+  color: White;
+  font-size: 15px;
+  margin-left: 20px;
+  padding: 10px 10px;
+  border-radius: 25px;
+  border-color: #ff6348;
+}
+.button:hover{
+  background-color: #e056fd;
+  color: White;
+  font-size: 15px;
+  margin-left: 20px;
+  padding: 10px 10px;
+  border-radius: 25px;
+  border-color: #be2edd;
+}
+
 
 #logo2{
     background-image: url('logo.png');
     background-repeat: no-repeat;
-    background-size: 300px;
-    width: 300px;
-    height: 300px;
+    background-size: 200px;
+    width: 200px;
+    height: 200px;
     z-index: 10;
     animation: OK2 3s infinite;
     display: flex;
     transition: 2s;
     overflow: visible;
     justify-content: center;
-    padding-bottom: 570px;
-    margin-left: -85px;
+    padding-bottom: 0px;
+    margin-left: 0px;
+    margin-bottom: -140px;
+    margin-top: -25px;
 }
 @keyframes OK2{
     0%{
@@ -231,31 +299,5 @@
         }
     100%{
         transform: rotate(0deg);
-        }
-}
-#logo3{
-    background-image: url('logo.png');
-    background-repeat: no-repeat;
-    background-size: 300px;
-    width: 300px;
-    height: 300px;
-    z-index: 10;
-    animation: OK 3s infinite;
-    display: flex;
-    transition: 2s;
-    overflow: visible;
-    justify-content: center;
-    padding-bottom: 570px;
-    margin-left: -85px;
-}
-@keyframes OK{
-    0%{
-        transform: rotate(-10deg);
-        }
-    50%{
-        transform: rotate(0deg);
-        }
-    100%{
-        transform: rotate(-10deg);
         }
 }
